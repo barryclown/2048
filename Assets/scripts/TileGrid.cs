@@ -5,48 +5,53 @@ using UnityEngine;
 
 public class TileGrid : MonoBehaviour
 {
+    //控制網格資料結構
     public TileCell[] cells { get; private set; }
     public TileRow[] rows { get; private set; }
-    public int height=> rows.Length;
-    public int size=> cells.Length;
-    public int width=>size/height;
+
+    public int height => rows.Length;
+    public int size => cells.Length;
+    public int width => size / height;
+
     private void Awake()
     {
         cells = GetComponentsInChildren<TileCell>();
         rows = GetComponentsInChildren<TileRow>();
     }
+
     private void Start()
     {
         for (int i = 0; i < rows.Length; i++)
         {
             for (int j = 0; j < rows[i].cells.Length; j++)
             {
-                rows[i].cells[j].coordinates = new Vector2Int(j,i);
+                rows[i].cells[j].coordinates = new Vector2Int(j, i);
             }
         }
     }
+
     public TileCell GetRandomEmptyCell()
     {
-        int index = Random.Range(0, cells.Length); 
+        int index = Random.Range(0, cells.Length);
         int startindex = index;
         while (cells[index].occupied)
         {
             index++;
-            if (index>=cells.Length)
+            if (index >= cells.Length)
             {
-                index = 0; 
+                index = 0;
             }
-            if (index==startindex)
+            if (index == startindex)
             {
                 return null;
             }
-
         }
         return cells[index];
     }
+
     public TileCell GetCell(int x, int y)
     {
-        if (x >= 0 && x < width&& y >= 0 && y < height)
+        if (x >= 0 && x < width && y >= 0 && y < height)
         {
             return rows[y].cells[x];
         }
@@ -55,9 +60,10 @@ public class TileGrid : MonoBehaviour
             return null;
         }
     }
-    public TileCell GetAdjacentCell(TileCell cell,Vector2Int direction)
+
+    public TileCell GetAdjacentCell(TileCell cell, Vector2Int direction)
     {
-        Vector2Int coordinates=cell.coordinates;
+        Vector2Int coordinates = cell.coordinates;
         coordinates.x += direction.x;
         coordinates.y -= direction.y;
         return GetCell(coordinates.x, coordinates.y);

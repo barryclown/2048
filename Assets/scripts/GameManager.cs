@@ -1,79 +1,86 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.Mathematics;
+using TMPro;                  
+using Unity.Mathematics;      
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public TileBoard board;
-    public CanvasGroup gameover;
-    public TextMeshProUGUI nowscore;
-    public TextMeshProUGUI highscore;
-    public int score;
+    //遊戲關卡控制器
+    public TileBoard board;                  
+    public CanvasGroup gameOver;             
+    public TextMeshProUGUI nowScore;          
+    public TextMeshProUGUI highScore;         
+    public int score;                          
+
     void Start()
     {
-        NewGame();
+        NewGame();                           
     }
+
     public void NewGame()
     {
-        SetScore(0);
-        highscore.text =LoadHighScore().ToString();
-        //透明
-        gameover.alpha = 0;
-        gameover.interactable = false;
-        board.ClearBoard();
-        board.CreatTile();
-        board.CreatTile();
-        board.enabled = true;
-        
+        SetScore(0);                           
+        highScore.text = LoadHighScore().ToString(); 
+
+    
+        gameOver.alpha = 0;
+        gameOver.interactable = false;
+
+        board.ClearBoard();                   
+        board.CreatTile();                     
+        board.CreatTile();                      
+        board.enabled = true;                   
     }
+
     public void GameOver()
     {
-        board.enabled=false;
-        gameover.interactable = true;
-        StartCoroutine(fade(gameover,1f,1f));
-        
+        board.enabled = false;                  
+        gameOver.interactable = true;          
+        StartCoroutine(Fade(gameOver, 1f, 1f)); 
     }
-    private IEnumerator fade(CanvasGroup group,float to,float delay)
+
+    // 淡入淡出 Coroutine
+    private IEnumerator Fade(CanvasGroup group, float to, float delay)
     {
         yield return new WaitForSeconds(delay);
         float elapsed = 0f;
-        float duration = 0.1f;
+        float duration = 0.1f;                 
+        float from = group.alpha;              
 
-        float from = group.alpha;
+        // 逐幀漸變透明度
         while (elapsed < duration)
         {
-            group.alpha = Mathf.Lerp(from, to, elapsed / duration);
-            elapsed += Time.deltaTime;
-            yield return null;
+            group.alpha = Mathf.Lerp(from, to, elapsed / duration); 
+            elapsed += Time.deltaTime;        
+            yield return null;                 
         }
-        group.alpha = to;
+        group.alpha = to;                      
     }
+
     private void SetScore(int score)
     {
-        this.score = score;
-        nowscore.text = score.ToString();
-
-        SaveLowScore();
+        this.score = score;                  
+        nowScore.text = score.ToString();      
+        SaveLowScore();                       
     }
+
     private int LoadHighScore()
     {
         return PlayerPrefs.GetInt("history", 0);
     }
-    private void SaveLowScore() 
+
+    private void SaveLowScore()
     {
-        int high =LoadHighScore();
-        if (score > high)
+        int high = LoadHighScore();           
+        if (score > high)                    
         {
-            PlayerPrefs.SetInt("history", score);
+            PlayerPrefs.SetInt("history", score); 
         }
     }
-    public void increaseScore(int number)
+
+    public void IncreaseScore(int number)
     {
-        SetScore(score+number);
+        SetScore(score + number);             
     }
-
-
-
 }

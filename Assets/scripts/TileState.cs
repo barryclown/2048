@@ -8,6 +8,6 @@ using UnityEngine;
 
 public class TileState : ScriptableObject
 {
-    public Color BackgroundColor;
-    public Color TextColor;
+    public Color backgroundColor;
+    public Color textColor;
 }

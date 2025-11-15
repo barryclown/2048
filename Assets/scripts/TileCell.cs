@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TileCell : MonoBehaviour
-    //每個格子
+    //網格單位
 {
     public Vector2Int coordinates { get; set; }
     public Tile tile { get; set; }

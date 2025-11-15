@@ -65,8 +65,8 @@
     <Compile Include="Assets\scripts\TileBoard.cs" />
     <Compile Include="Assets\scripts\TileGrid.cs" />
     <Compile Include="Assets\scripts\Tile.cs" />
-    <Compile Include="Assets\scripts\start.cs" />
     <Compile Include="Assets\scripts\TileState.cs" />
+    <Compile Include="Assets\scripts\ButtonEffect.cs" />
     <Compile Include="Assets\scripts\TileCell.cs" />
   </ItemGroup>
   <ItemGroup>

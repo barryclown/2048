@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class TileBoard : MonoBehaviour
 {
+    // 核心遊玩邏輯 - 方塊移動、合併、生成 版面控制
     public GameManager gameManager;
     public Tile tilePrefab;
 
@@ -38,7 +39,7 @@ public class TileBoard : MonoBehaviour
     {
        Tile tile= Instantiate(tilePrefab,grid.transform);
         tile.SetState(tileStates[0],2);
-        tile.spawn(grid.GetRandomEmptyCell());
+        tile.Spawn(grid.GetRandomEmptyCell());
         tiles.Add(tile);
     }
     private void Update()
@@ -115,13 +116,13 @@ public class TileBoard : MonoBehaviour
     {
         tiles.Remove(a);
         a.Merge(b.cell);
-        int index = Mathf.Clamp(indexOf(b.state)+1,0,tileStates.Length-1);
+        int index = Mathf.Clamp(IndexOf(b.state)+1,0,tileStates.Length-1);
         int number = b.number * 2;
         b.SetState(tileStates[index],number);
-        gameManager.increaseScore(number);
+        gameManager.IncreaseScore(number);
         
     }
-    private int indexOf(TileState state)
+    private int IndexOf(TileState state)
     {
         for (int i = 0; i < tileStates.Length; i++)
         {

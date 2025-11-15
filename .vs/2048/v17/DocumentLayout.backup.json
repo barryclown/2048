@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\barry\\2048\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tilegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tileboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tileboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|c:\\users\\barry\\2048\\assets\\scripts\\buttoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tilecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tilerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,26 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tilestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tileboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tileboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\tilegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilegrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|c:\\users\\barry\\2048\\assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|C:\\Users\\barry\\2048\\assets\\scripts\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAA271DF-0D6E-151F-8354-B1EDE5043471}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,30 +42,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "start.cs",
-              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\start.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\start.cs",
-              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\start.cs",
-              "RelativeToolTip": "Assets\\scripts\\start.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 2,
+              "Title": "TileBoard.cs",
+              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileBoard.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TileBoard.cs",
+              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileBoard.cs",
+              "RelativeToolTip": "Assets\\scripts\\TileBoard.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:31:21.253Z",
+              "WhenOpened": "2024-02-25T18:59:49.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Tile.cs",
+              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\Tile.cs",
+              "RelativeToolTip": "Assets\\scripts\\Tile.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T18:57:57.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TileGrid.cs",
+              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileGrid.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\TileGrid.cs",
+              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileGrid.cs",
+              "RelativeToolTip": "Assets\\scripts\\TileGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T21:00:12.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEcAAAAdAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T13:18:19.79Z",
               "EditorCaption": ""
@@ -73,79 +99,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TileBoard.cs",
-              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileBoard.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\TileBoard.cs",
-              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileBoard.cs",
-              "RelativeToolTip": "Assets\\scripts\\TileBoard.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAuwD4AAAAFAAAA",
+              "Title": "ButtonEffect.cs",
+              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\ButtonEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ButtonEffect.cs",
+              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\ButtonEffect.cs",
+              "RelativeToolTip": "Assets\\scripts\\ButtonEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T18:59:49.078Z",
+              "WhenOpened": "2024-03-18T16:31:21.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tile.cs",
-              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\Tile.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Tile.cs",
-              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\Tile.cs",
-              "RelativeToolTip": "Assets\\scripts\\Tile.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T18:57:57.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TileState.cs",
               "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileState.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\TileState.cs",
               "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileState.cs",
               "RelativeToolTip": "Assets\\scripts\\TileState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:00:52.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:00:52.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TileRow.cs",
               "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileRow.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\TileRow.cs",
               "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileRow.cs",
               "RelativeToolTip": "Assets\\scripts\\TileRow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:00:50.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:00:50.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TileCell.cs",
               "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileCell.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\TileCell.cs",
               "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileCell.cs",
               "RelativeToolTip": "Assets\\scripts\\TileCell.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T21:00:41.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TileGrid.cs",
-              "DocumentMoniker": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileGrid.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\TileGrid.cs",
-              "ToolTip": "C:\\Users\\barry\\2048\\Assets\\scripts\\TileGrid.cs",
-              "RelativeToolTip": "Assets\\scripts\\TileGrid.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:00:12.09Z",
               "EditorCaption": ""
             }
           ]
